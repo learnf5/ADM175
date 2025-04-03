@@ -25,7 +25,7 @@ Notes, build scripts, and associated files for the *Administering BIG-IP version
 |ADM-C2A01-APP         |Test Basic Web Application Delivery                          |1           |200       |X   |X       |X       |        |
 |ADM-C2C01-TMSH        |Configure the BIG-IP System Using TMSH                       |1           |200       |X   |X       |X       |        |
 |ADM-C2D01-NAT         |Use NAT to Directly Access an Internal Node                  |1           |220       |X   |X       |X       |        |
-|ADM-C2D02-SNAT        |Solve a Routing Issue with Source Network Address Translation|1           |220       |X   |X       |X       |        |
+|ADM-C2D02-SNAT        |Solve a Routing Issue with Source Network Address Translation|1           |220       |X   |X       |X       |not used|
 |ADM-C2F01-HEALTH      |Monitor Application Health                                   |1           |240       |X   |X       |X       |        |
 |ADM-C2G01-SSL         |Implement SSL Offload and Re-encryption                      |1           |260       |X   |X       |X       |        |
 |ADM-C2H01-PERSIST     |Experiment with Source Address Affinity Persistence          |1           |260       |X   |X       |X       |        |
