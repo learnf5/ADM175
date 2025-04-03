@@ -18,17 +18,17 @@ Administering BIG-IP version 17.5
 |ADM-C3D01-ROLES       |8     |      |       |4   |     |1              |
 
 ## Lab Name, Duration and VLANs
-|Lab Number            |Lab Name                                                     |Lab Duration|MGMT|External|Internal|Internet|
-|----------------------|-------------------------------------------------------------|-----------:|:--:|:------:|:------:|:------:|
-|ADM-C1C01-SETUP       |Setup a Standalone BIG-IP System                             |2           |X   |X       |X       |        |
-|ADM-C1D01-ACTIVE      |Configure an Active-Standby Pair                             |1           |X   |X       |X       |        |
-|ADM-C2A01-APP         |Test Basic Web Application Delivery                          |1           |X   |X       |X       |        |
-|ADM-C2C01-TMSH        |Configure the BIG-IP System Using TMSH                       |1           |X   |X       |X       |        |
-|ADM-C2D01-NAT         |Use NAT to Directly Access an Internal Node                  |1           |X   |X       |X       |        |
-|ADM-C2D02-SNAT        |Solve a Routing Issue with Source Network Address Translation|1           |X   |X       |X       |        |
-|ADM-C2F01-HEALTH      |Monitor Application Health                                   |1           |X   |X       |X       |        |
-|ADM-C2G01-SSL         |Implement SSL Offload and Re-encryption                      |1           |X   |X       |X       |        |
-|ADM-C2H01-PERSIST     |Experiment with Source Address Affinity Persistence          |1           |X   |X       |X       |        |
-|ADM-C2H02-OBJECT      |Manage Object State                                          |1           |X   |X       |X       |        |
-|ADM-C3B01-HSL         |Configure High Speed Logging                                 |1           |X   |X       |X       |        |
-|ADM-C3D01-ROLES       |Create Administrative Partitions and Multiple User Roles     |1           |X   |X       |X       |        |
+|Lab Number            |Lab Name                                                     |Lab Duration|Lab Series|MGMT|External|Internal|Internet|
+|----------------------|-------------------------------------------------------------|-----------:|---------:|:--:|:------:|:------:|:------:|
+|ADM-C1C01-SETUP       |Setup a Standalone BIG-IP System                             |2           |100       |X   |X       |X       |        |
+|ADM-C1D01-ACTIVE      |Configure an Active-Standby Pair                             |1           |120       |X   |X       |X       |        |
+|ADM-C2A01-APP         |Test Basic Web Application Delivery                          |1           |200       |X   |X       |X       |        |
+|ADM-C2C01-TMSH        |Configure the BIG-IP System Using TMSH                       |1           |200       |X   |X       |X       |        |
+|ADM-C2D01-NAT         |Use NAT to Directly Access an Internal Node                  |1           |220       |X   |X       |X       |        |
+|ADM-C2D02-SNAT        |Solve a Routing Issue with Source Network Address Translation|1           |220       |X   |X       |X       |        |
+|ADM-C2F01-HEALTH      |Monitor Application Health                                   |1           |240       |X   |X       |X       |        |
+|ADM-C2G01-SSL         |Implement SSL Offload and Re-encryption                      |1           |260       |X   |X       |X       |        |
+|ADM-C2H01-PERSIST     |Experiment with Source Address Affinity Persistence          |1           |260       |X   |X       |X       |        |
+|ADM-C2H02-OBJECT      |Manage Object State                                          |1           |280       |X   |X       |X       |        |
+|ADM-C3B01-HSL         |Configure High Speed Logging                                 |1           |300       |X   |X       |X       |        |
+|ADM-C3D01-ROLES       |Create Administrative Partitions and Multiple User Roles     |1           |300       |X   |X       |X       |        |
