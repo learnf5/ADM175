@@ -15,7 +15,7 @@ Notes, build scripts, and associated files for the *Administering BIG-IP version
 |ADM-C2H01-PERSIST     |8     |      |       |4   |4    |0.5            |
 |ADM-C2H02-OBJECT      |8     |      |       |4   |     |0.5            |
 |ADM-C3B01-HSL         |8     |      |       |4   |     |0.5            |
-|ADM-C3D01-ROLES       |8     |      |       |4   |     |0.5            |
+|ADM-C3D01-ROLE        |8     |      |       |4   |     |0.5            |
 
 ## Lab Name, Duration (hr) and VLANs
 |Lab Number            |Lab Name                                                     |Lab Duration|Lab Series|MGMT|External|Internal|Internet|
@@ -31,4 +31,4 @@ Notes, build scripts, and associated files for the *Administering BIG-IP version
 |ADM-C2H01-PERSIST     |Experiment with Source Address Affinity Persistence          |1           |260       |X   |X       |X       |        |
 |ADM-C2H02-OBJECT      |Manage Object State                                          |1           |280       |X   |X       |X       |        |
 |ADM-C3B01-HSL         |Configure High Speed Logging                                 |1           |300       |X   |X       |X       |        |
-|ADM-C3D01-ROLES       |Create Administrative Partitions and Multiple User Roles     |1           |300       |X   |X       |X       |        |
+|ADM-C3D01-ROLE        |Create Administrative Partitions and Multiple User Roles     |1           |300       |X   |X       |X       |        |
