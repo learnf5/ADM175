@@ -1,23 +1,23 @@
 # ADM175
 Administering BIG-IP version 17.5
 
-## Lab VMs
+## Lab VM RAM (GB)
 |Lab Number            |bigip1|bigip2|bigip17|jump|jump2|training server|
 |----------------------|-----:|-----:|------:|---:|----:|--------------:|
-|ADM-C1C01-SETUP       |8     |      |       |4   |     |1              |
-|ADM-C1D01-ACTIVE      |8     |8     |       |4   |     |1              |
-|ADM-C2A01-APP         |8     |      |       |4   |     |1              |
-|ADM-C2C01-TMSH        |8     |      |       |4   |     |1              |
-|ADM-C2D01-NAT         |8     |      |       |4   |     |1              |
-|ADM-C2D02-SNAT        |8     |      |8      |4   |     |1              |
-|ADM-C2F01-HEALTH      |8     |      |       |4   |     |1              |
-|ADM-C2G01-SSL         |8     |      |       |4   |     |1              |
-|ADM-C2H01-PERSIST     |8     |      |       |4   |4    |1              |
-|ADM-C2H02-OBJECT      |8     |      |       |4   |     |1              |
-|ADM-C3B01-HSL         |8     |      |       |4   |     |1              |
-|ADM-C3D01-ROLES       |8     |      |       |4   |     |1              |
+|ADM-C1C01-SETUP       |8     |      |       |4   |     |0.5            |
+|ADM-C1D01-ACTIVE      |8     |8     |       |4   |     |0.5            |
+|ADM-C2A01-APP         |8     |      |       |4   |     |0.5            |
+|ADM-C2C01-TMSH        |8     |      |       |4   |     |0.5            |
+|ADM-C2D01-NAT         |8     |      |       |4   |     |0.5            |
+|ADM-C2D02-SNAT        |8     |      |8      |4   |     |0.5            |
+|ADM-C2F01-HEALTH      |8     |      |       |4   |     |0.5            |
+|ADM-C2G01-SSL         |8     |      |       |4   |     |0.5            |
+|ADM-C2H01-PERSIST     |8     |      |       |4   |4    |0.5            |
+|ADM-C2H02-OBJECT      |8     |      |       |4   |     |0.5            |
+|ADM-C3B01-HSL         |8     |      |       |4   |     |0.5            |
+|ADM-C3D01-ROLES       |8     |      |       |4   |     |0.5            |
 
-## Lab Name, Duration and VLANs
+## Lab Name, Duration (hr) and VLANs
 |Lab Number            |Lab Name                                                     |Lab Duration|Lab Series|MGMT|External|Internal|Internet|
 |----------------------|-------------------------------------------------------------|-----------:|---------:|:--:|:------:|:------:|:------:|
 |ADM-C1C01-SETUP       |Setup a Standalone BIG-IP System                             |2           |100       |X   |X       |X       |        |
