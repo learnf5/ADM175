@@ -6,6 +6,7 @@ mv /tmp/train_base_171.ucs /tmp/train_base.ucs
 sudo scp /tmp/*.scf 192.168.1.31:/var/local/scf
 sudo scp /tmp/train_base.ucs 192.168.1.31:/var/local/ucs
 
+### WE MAY NEED TO SAVE THIS FOR THE SECOND OF TWO LABS (TMSH)
 # load/merge archive to bigip1 and pause
 sudo ssh 192.168.1.31 tmsh load sys config merge file cfg_w_tmsh.scf
 sleep 15
