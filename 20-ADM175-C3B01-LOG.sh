@@ -6,6 +6,8 @@ sudo ssh 192.168.1.31 tmsh load sys config merge file config_hsl.scf
 # download config from GitHub and copy and load/merge it onto bigip1
 curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/adm_part_user_role.scf --output /tmp/adm_part_user_role.scf
 sudo scp /tmp/adm_part_user_role.scf 192.168.1.31:/var/local/scf
+
+### WE MAY NEED TO SAVE THIS FOR THE SECOND OF TWO LABS (PARTITIONS)
 ###sudo ssh 192.168.1.31 tmsh load sys config merge file adm_part_user_role.scf
 
 # confirm bigip1 is active again
