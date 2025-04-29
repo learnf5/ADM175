@@ -6,6 +6,8 @@ sudo ssh 192.168.1.31 tmsh load sys config merge file src_addr_affin_persist.scf
 # download config from GitHub and copy and load/merge to bigip1
 curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/mng_obj_state.scf --output /tmp/mng_obj_state.scf
 sudo scp /tmp/mng_obj_state.scf 192.168.1.31:/var/local/scf
+
+### WE MAY NEED TO SAVE THIS FOR THE SECOND OF TWO LABS (OBJECT)
 ###sudo ssh 192.168.1.31 tmsh load sys config merge file mng_obj_state.scf
 
 # confirm bigip1 is active 
