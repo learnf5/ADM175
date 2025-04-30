@@ -1,6 +1,7 @@
 # ADM175
 Notes, build scripts, and associated files for the *Administering BIG-IP version 17.5* course.
 
+
 ## Lab VM RAM (GB)
 |Lab Number           |bigip1|bigip2|bigip17|jump|jump2|training server|
 |---------------------|-----:|-----:|------:|---:|----:|--------------:|
