@@ -13,6 +13,13 @@ sudo ssh 192.168.1.31 tmsh load sys config default
 labdir=/home/student/Desktop/Lab_Files
 mkdir $labdir
 filename=$(date +ltm-reg-key-%Y-%m.txt)
+
+# turn off logging for license transfer
 set +x
+
+# download eval license key
 curl --silent --output $labdir/ltm-reg-key.txt -H "Authorization: token $TOKEN" https://raw.githubusercontent.com/learnf5/eval-reg-keys/main/$filename
 echo curl --silent --output $labdir/ltm-reg-key.txt -H "Authorization: token XXXXXXXXXXXXXXXXXX" https://raw.githubusercontent.com/learnf5/eval-reg-keys/main/$filename
+
+# enable logging
+set -x
